@@ -2,7 +2,7 @@
   "name": "lab-cognito",
   "version": "0.1.0",
   "bin": {
-    "lab-cognito": "bin/lab-cognito.js"
+    "application": "bin/application.js"
   },
   "scripts": {
     "build": "tsc",
@@ -21,7 +21,13 @@
     "typescript": "~3.7.2"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.51.0",
+    "@aws-cdk/aws-cognito": "^1.51.0",
+    "@aws-cdk/aws-iam": "^1.51.0",
+    "@aws-cdk/aws-lambda": "^1.51.0",
     "@aws-cdk/core": "1.51.0",
+    "@aws-cdk/custom-resources": "^1.51.0",
+    "aws-amplify": "^3.0.20",
     "source-map-support": "^0.5.16"
   }
 }
